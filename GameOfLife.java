@@ -1,14 +1,18 @@
 import chn.util.*;
 import apcslib.*;
 /**
- * Write a description of class GameOfLife here.
+ * Implements mathematician John Conway's Game Of Life in Java.
+ * Conway's Game of Life simulates the birth and death of cells within a rectangular grid. 
+ * The state of a given cell in any generation depends on the state of the cell and its eight immediate neighbors in the preceding generation, according to 2 rules:
+ *
+ * If a living cell has two or three neighbors, it remains living; otherwise it dies of loneliness or overcrowding. 
+ * If an empty cell has exactly three neighbors, it becomes living; otherwise, it remains dead.
  *
  * @Tye Williams
  * @version 1.1
  */
 public class GameOfLife
 {
-    // instance variables - replace the example below with your own
     final int ROWS_NUM = 22;
     final int COLS_NUM = 22;
     private FileInput input;
