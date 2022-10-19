@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=GameOfLife
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ GameOfLife\ here.\r\n\r\n\ @Tye\ Williams\r\n\ @version\ 1.1\r\n
+comment1.params=in
+comment1.target=GameOfLife(chn.util.FileInput)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ GameOfLife\r\n
+comment2.params=
+comment2.target=int[][]\ toArray()
+comment3.params=
+comment3.target=void\ print()
+comment4.params=
+comment4.target=int\ countTotal()
+comment5.params=row
+comment5.target=int\ countRow(int)
+comment6.params=col
+comment6.target=int\ countColumn(int)
+comment7.params=row\ col
+comment7.target=int[][]\ checkLocalArea(int,\ int)
+comment8.params=
+comment8.target=int[][]\ generate()
+numComments=9
